@@ -22,7 +22,7 @@ html, body {
 	height: 100%;
 	width: 100%;
 	margin: auto;
-	background: url(https://hleb.cc/images/2018/12/17/1920x1080.jpg) no-repeat 50% 50%;
+	background: url(../img/bg.jpg) no-repeat 50% 50%;
 	display: table;
 	top: 0;
 	background-size: cover;
