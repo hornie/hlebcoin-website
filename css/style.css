@@ -18,11 +18,58 @@ html, body {
 }
 */
 
+.moon {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 35px;
+  border: none;
+  font: normal 16px/1 "Times New Roman", Times, serif;
+  color: black;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: url("../img/moon.png");
+  background-repeat: no-repeat;
+  background-position: 51.5% 48.5%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: contain;
+  background-size: contain;
+  margin-bottom: 1em;
+  -webkit-animation: vibrate 0.3s linear infinite both;
+  animation: vibrate 0.3s linear infinite both;
+}
+
+.logo {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 150px;
+  border: none;
+  font: normal 16px/1 "Times New Roman", Times, serif;
+  color: black;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: url("../img/logo/logo.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: contain;
+  background-size: contain;
+  vertical-align:middle;
+}
+
 .intro {
 	height: 100%;
 	width: 100%;
 	margin: auto;
 	background: url(../img/bg.jpg) no-repeat 50% 50%;
+	background: linear-gradient(rgb(255, 225, 35), hsla(120, 100%, 50%, 0.3) 70.71%), url(../img/bg.jpg) no-repeat 50% 50%;
 	display: table;
 	top: 0;
 	background-size: cover;
@@ -36,7 +83,7 @@ html, body {
 }
 
 .content {
-	max-width: 500px;
+	max-width: 600px;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -50,12 +97,14 @@ html, body {
   height: 60px;
   cursor: pointer;
   margin: auto;
+  margin-right: 3em;
+  margin-top: 4em;
   border: none;
   font: normal 16px/normal "Times New Roman", Times, serif;
   color: rgba(255,255,255,0.9);
   -o-text-overflow: clip;
   text-overflow: clip;
-  background: url("../img/github.png");
+  background: url("../img/icons/github.png");
   background-position: center center;
   -webkit-background-origin: padding-box;
   background-origin: padding-box;
@@ -70,6 +119,8 @@ html, body {
   -moz-transition: all 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
   -o-transition: all 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transition: all 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -webkit-animation: slide-top 3s ease-in-out 300ms infinite alternate both;
+  animation: slide-top 3s ease-in-out 300ms infinite alternate both;
 }
 
 
@@ -82,12 +133,14 @@ html, body {
   height: 60px;
   cursor: pointer;
   margin: auto;
+  margin-right: 3em;
+  margin-top: 4em;
   border: none;
   font: normal 16px/normal "Times New Roman", Times, serif;
   color: rgba(255,255,255,0.9);
   -o-text-overflow: clip;
   text-overflow: clip;
-  background: url("../img/pickaxe.png");
+  background: url("../img/icons/pickaxe.png");
   background-position: center center;
   -webkit-background-origin: padding-box;
   background-origin: padding-box;
@@ -102,6 +155,8 @@ html, body {
   -moz-transition: all 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
   -o-transition: all 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transition: all 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -webkit-animation: slide-top 3s ease-in-out 300ms infinite alternate both;
+  animation: slide-top 3s ease-in-out 300ms infinite alternate both;
 }
 
 .btn3{
@@ -113,12 +168,14 @@ html, body {
   height: 60px;
   cursor: pointer;
   margin: auto;
+  margin-right: 3em;
+  margin-top: 4em;
   border: none;
   font: normal 16px/normal "Times New Roman", Times, serif;
   color: rgba(255,255,255,0.9);
   -o-text-overflow: clip;
   text-overflow: clip;
-  background: url("../img/bcexplorer.png");
+  background: url("../img/icons/bcexplorer.png");
   background-position: center center;
   -webkit-background-origin: padding-box;
   background-origin: padding-box;
@@ -133,6 +190,8 @@ html, body {
   -moz-transition: all 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
   -o-transition: all 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transition: all 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -webkit-animation: slide-top 3s ease-in-out 300ms infinite alternate both;
+  animation: slide-top 3s ease-in-out 300ms infinite alternate both;
 }
 
 .btn4{
@@ -144,12 +203,14 @@ html, body {
   height: 60px;
   cursor: pointer;
   margin: auto;
+  margin-right: 3em;
+  margin-top: 4em;
   border: none;
   font: normal 16px/normal "Times New Roman", Times, serif;
   color: rgba(255,255,255,0.9);
   -o-text-overflow: clip;
   text-overflow: clip;
-  background: url("../img/twitter.png");
+  background: url("../img/icons/twitter.png");
   background-position: center center;
   -webkit-background-origin: padding-box;
   background-origin: padding-box;
@@ -164,6 +225,8 @@ html, body {
   -moz-transition: all 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
   -o-transition: all 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transition: all 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -webkit-animation: slide-top 3s ease-in-out 300ms infinite alternate both;
+  animation: slide-top 3s ease-in-out 300ms infinite alternate both;
 }
 
 .btn5{
@@ -175,12 +238,14 @@ html, body {
   height: 60px;
   cursor: pointer;
   margin: auto;
+  margin-right: 3em;
+  margin-top: 4em;
   border: none;
   font: normal 16px/normal "Times New Roman", Times, serif;
   color: rgba(255,255,255,0.9);
   -o-text-overflow: clip;
   text-overflow: clip;
-  background: url("../img/telegram.png");
+  background: url("../img/icons/telegram.png");
   background-position: center center;
   -webkit-background-origin: padding-box;
   background-origin: padding-box;
@@ -195,12 +260,185 @@ html, body {
   -moz-transition: all 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
   -o-transition: all 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transition: all 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -webkit-animation: slide-top 3s ease-in-out 300ms infinite alternate both;
+  animation: slide-top 3s ease-in-out 300ms infinite alternate both;
 }
+
+/*.down {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 50px;
+  border: none;
+  color: black;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: url("../img/icons/down.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: contain;
+  background-size: contain;
+  margin-top: 3em;
+  vertical-align: middle;
+}*/
 
 h1 {
 	font-family: 'Raleway', sans-serif;
-	color: #000000;
+	color: #FFFFFF;
 	text-shadow: 0px 0px 300px #000;
 	font-size: 500%;
+	margin-bottom: 0px;
+	margin-top: 50px;
+	-webkit-animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+	color: #FFFFFF;
+	text-shadow: 0px 0px 300px #000;
+	font-size: 150%;
+	margin-bottom: 10px;
+	margin-top: 0px;
+	-webkit-animation: fade-in 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.9s both;
+	animation: fade-in 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1.9s both;
+}
+
+h3 {
+	font-family: 'Raleway', sans-serif;
+	color: #000000;
+	text-shadow: 0px 0px 300px #000;
+	font-size: 350%;
+	text-align: center;
+}
+
+.main {
+	height: 75%;
+	width: 100%;
+	margin: auto;
+	background: rgb(147, 215, 255);
+	display: table;
+	top: 0;
+	background-size: cover;
+}
+
+.main .inner .about {
+	text-align: left;
+	font-size: 200%;
+	line-height: 1.2;
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2019-3-1 14:19:12
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation slide-top
+ * ----------------------------------------
+ */
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
+  }
+}
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
+  }
+}
+
+/**
+ * ----------------------------------------
+ * animation vibrate
+ * ----------------------------------------
+ */
+@-webkit-keyframes vibrate {
+/*  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(2px, -2px);
+            transform: translate(2px, -2px);
+  }
+  40% {
+    -webkit-transform: translate(2px, 2px);
+            transform: translate(2px, 2px);
+  }*/
+  60% {
+    -webkit-transform: translate(-2px, 2px);
+            transform: translate(-2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(-2px, -2px);
+            transform: translate(-2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+@keyframes vibrate {
+/*  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(2px, -2px);
+            transform: translate(2px, -2px);
+  }
+  40% {
+    -webkit-transform: translate(2px, 2px);
+            transform: translate(2px, 2px);
+  } */
+  60% {
+    -webkit-transform: translate(-2px, 2px);
+            transform: translate(-2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(-2px, -2px);
+            transform: translate(-2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+
+/**
+ * ----------------------------------------
+ * animation fade-in
+ * ----------------------------------------
+ */
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
