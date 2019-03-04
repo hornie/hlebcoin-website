@@ -430,9 +430,7 @@ img {
 	line-height: 1.2;
     width: 40%;
 	display: inline-block;
-	background-image: linear-gradient(to left, violet, blue, green, yellow, orange, red);
 	-webkit-background-clip: text;
-    color: transparent;
 }
 
 .feature3 {
