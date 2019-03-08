@@ -410,6 +410,11 @@ img {
     height: 200px;
 }
 
+.features {
+  flex: 15%;
+  padding: 5px;
+}
+
 .feature1 {
 	position: relative;
 	font-family: 'Oswald', sans-serif;
@@ -442,11 +447,17 @@ img {
 	display: inline-block;
 }
 
+.features img {
+	width: 200px;
+    height: 200px;
+	border-radius: 50%;
+}
+
 .team {
 	height: 80%;
 	width: 100%;
 	margin: auto;
-	background: linear-gradient(hsla(40, 90%, 45%, 0.8), hsla(40, 90%, 45%, 0.8) 70.71%), url(../img/misc/pepethumbsup.png) no-repeat 50% 50%;
+	background: linear-gradient(hsla(40, 90%, 45%, 0.8), hsla(40, 90%, 45%, 0.8) 70.71%), url(../img/misc/group.png) no-repeat 50% 50%;
 	display: table;
 	top: 0;
 	background-size: cover;
@@ -535,7 +546,7 @@ img {
 	height: 65%;
 	width: 100%;
 	margin: auto;
-	background: linear-gradient(hsla(210, 90%, 45%, 0.7), hsla(210, 90%, 45%, 0.7) 70.71%), url(../img/misc/group.png) no-repeat 50% 50%;
+	background: linear-gradient(hsla(210, 90%, 45%, 0.7), hsla(210, 90%, 45%, 0.7) 70.71%), url(../img/misc/pepethumbsup.png) no-repeat 50% 50%;
 	display: table;
 	top: 0;
 	background-size: cover;
@@ -631,6 +642,8 @@ img {
 	font-family: 'Oswald', sans-serif;
 	text-align: left;
 	margin-left: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .inner-info img {
